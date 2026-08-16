@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+.npmrc
+npm-debug.log*
+*.tgz
+
+# Local visual QA captures can contain session names, file names, and network details.
+preview/
+
+# Keep only the runtime source asset required by scripts/build.mjs.
+assets/*
+!assets/pixel-kingdom-bg-v2-ui.webp

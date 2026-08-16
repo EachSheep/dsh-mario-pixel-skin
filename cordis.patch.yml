@@ -1,0 +1,9 @@
+# Browser-only DSH bundle. Keep this bundle in the Web profile layer.
+- insert:
+    - id: ui-skin-pixel-kingdom
+      name: dsh-client-ui-skin-pixel-kingdom
+      config:
+        showTitlebar: true
+        backgroundBlurPx: 5
+        fontScale: 1
+        compatibility: dsh-0.1.0-rc.6

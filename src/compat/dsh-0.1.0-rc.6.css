@@ -1,0 +1,367 @@
+/*
+ * DSH 0.1.0-rc.6 adapter.
+ * This is the only file allowed to depend on current DOM labels or CSS-module
+ * local names. Delete this layer with compatibility=tokens-only, or replace
+ * this file after an upstream UI change.
+ */
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class*="_brand"] {
+  color: #071a3c;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_newSession"] {
+  color: #fff;
+  background: linear-gradient(#ef423b, #ca201d);
+  border: 3px solid #071a3c;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px #ff817a, inset -2px -2px #8f1412, 3px 4px 0 #071a3c4a;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_newSession"]:hover:not(:disabled) {
+  background: linear-gradient(#ff5b53, #d72a25);
+  transform: translateY(-1px);
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] [class$="_headlineText"] {
+  color: #071a3c;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  font-size: 28px;
+  font-weight: 900;
+  text-shadow: 1px 2px 0 #ffffffcc;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] button[class$="_sessionLogButton"] {
+  color: #092c53;
+  background: linear-gradient(#fffdf5, #ffe39a);
+  border: 2px solid #315879;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #173b62;
+  font-weight: 800;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] button[class$="_sessionLogButton"]:hover:not(:disabled) {
+  background: #fff1b8;
+  transform: translateY(-1px);
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] button[class$="_sessionLogButton"]:active:not(:disabled) {
+  box-shadow: 0 1px 0 #173b62;
+  transform: translateY(2px);
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] button[class$="_file"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] button[class$="_fileLink"] {
+  color: #164d72;
+  background: #f7fbff;
+  border: 1px solid #aac2d2;
+  border-left: 4px solid #2e91d5;
+  border-radius: 0 7px 7px 0;
+  box-shadow: none;
+  font-weight: 700;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  .aionui-root [role="treeitem"] {
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  .aionui-root [role="treeitem"]:hover {
+  background: #e0f2ff;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Copy"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Good response"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Bad response"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Branch into a new conversation"] {
+  color: #315879;
+  background: #ffffffb8;
+  border: 1px solid #9bb5c8;
+  border-radius: 50%;
+  box-shadow: none;
+  opacity: .78;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Copy"]:hover:not(:disabled),
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Good response"]:hover:not(:disabled),
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Bad response"]:hover:not(:disabled),
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Branch into a new conversation"]:hover:not(:disabled) {
+  color: #0a4f85;
+  background: #fff3b8;
+  border-color: #527d9d;
+  opacity: 1;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] button[aria-label="Search sessions"] {
+  color: #0c5791;
+  background: #e8f6ff;
+  border: 2px solid #397da9;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] button[aria-label="View options"] {
+  color: #5b4816;
+  background: #fff1b8;
+  border: 2px solid #a97a18;
+  border-radius: 14px;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] button[aria-label="Add workspace"] {
+  color: #fff;
+  background: #35ad45;
+  border: 2px solid #176d2c;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #0b5120;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label^="Workspace actions"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label^="Session actions"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Collapse sidebar"] {
+  color: #4a6178;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label^="Access mode"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label^="Select model"] {
+  color: #244763;
+  background: #f8fbfd;
+  border: 1px solid #9eb5c5;
+  border-left: 4px solid #4f91bd;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px #071a3c14;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label^="Access mode"][aria-label*="Workspace Write"] {
+  border-left-color: #d88918;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label^="Access mode"][aria-label*="Full access"] {
+  border-left-color: #d25a4a;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  button[aria-label="Send message"] {
+  color: #fff;
+  background: linear-gradient(#54d460, #249838);
+  border: 3px solid #0d5820;
+  border-radius: 50% 50% 5px 5px;
+  box-shadow: inset 2px 2px #a7f2a8, 0 3px 0 #073b16;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  input[aria-label="Search trajectory"],
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  .aionui-root input[aria-label="按文件名搜索"] {
+  color: #173b62;
+  background: #f8fcff;
+  border: 0;
+  border-bottom: 3px solid #1374d4;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="conversation"] [class$="_header"]:has(nav[aria-label="Session hierarchy"]) {
+  background: #dff3fff5;
+  border-bottom: 1px solid #82b8d8;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-testid="todo-panel"] [class$="_title"] {
+  color: #254b37;
+  font-weight: 650;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-testid="todo-panel"] [class$="_progress"] {
+  color: #687b88;
+  font-weight: 400;
+}
+
+/* Keep the fixed sidebar settings seat above the decorative ground strip. */
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_footArea"] {
+  position: relative;
+  z-index: 3;
+  margin: 0 -4px -2px;
+  padding: 7px 4px 3px;
+  background: #fff1c7f5;
+  border-top: 2px solid #8a6636;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_settingsArea"] {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_settingsArea"] button[aria-haspopup="dialog"] {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-width: 36px;
+  color: #183b5a;
+  background: #fffdf5;
+  border: 1px solid #8d7650;
+  border-left: 4px solid #2e91d5;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #6d5735;
+  font-size: 15px;
+  font-weight: 800;
+  opacity: 1;
+  visibility: visible;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_settingsArea"] button[aria-haspopup="dialog"]:hover:not(:disabled) {
+  color: #073f91;
+  background: #e8f6ff;
+  border-color: #397da9;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [data-pane="sidebar"] [class$="_settingsArea"] button[aria-haspopup="dialog"] svg {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  color: #fff;
+  background: #2e91d5;
+  border-radius: 3px;
+  filter: drop-shadow(0 1px 0 #174e79);
+}
+
+/* Settings use a paper-and-ink hierarchy; icons are badges, not boxed rows. */
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"][class$="_panel"] {
+  height: min(800px, calc(100vh - var(--pixel-titlebar-height) - 48px));
+  transform: translateY(calc(var(--pixel-titlebar-height) / 2));
+  background: #fffdf5;
+  border: 3px solid #173b62;
+  border-radius: 9px;
+  box-shadow: 8px 10px 0 #071a3c38;
+
+  & > :nth-child(2) > :first-child {
+    padding-right: 32px;
+  }
+
+  & > :nth-child(2) > :nth-child(2) {
+    padding-right: 40px;
+  }
+}
+
+/* Background explorer splitters must not pierce modal surfaces. */
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]:has([role="dialog"])
+  .aionui-explorer-handle,
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]:has([role="dialog"])
+  .aionui-preview-handle {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] [class$="_nav"] {
+  background: #fff1c7;
+  border-right: 2px solid #8bbfe3;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] button[class*="_navCell"] {
+  position: relative;
+  color: #31506c;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  font-weight: 700;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] button[class*="_navCell"]:hover:not(:disabled) {
+  color: #073f91;
+  background: #e1f3ff;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] button[class*="_navCell"][aria-current="true"] {
+  color: #071a3c;
+  background: #ffe59a;
+  box-shadow: inset 4px 0 #d88918;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] [class$="_navIcon"] {
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+  color: #fff;
+  background: #4f91bd;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px #245779;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] button[class*="_navCell"][aria-current="true"] [class$="_navIcon"] {
+  background: #d88918;
+  box-shadow: inset 0 -2px #8b5309;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] button[class$="_close"] {
+  color: #315879;
+  background: #edf7ff;
+  border: 1px solid #9eb5c5;
+  box-shadow: none;
+}
+
+body[data-dsh-pixel-kingdom][data-dsh-pixel-kingdom-compat="dsh-0.1.0-rc.6"]
+  [role="dialog"] button[class$="_close"]:hover:not(:disabled) {
+  color: #fff;
+  background: #df332f;
+  border-color: #8f1412;
+}

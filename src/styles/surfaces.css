@@ -1,0 +1,83 @@
+body[data-dsh-pixel-kingdom] #root {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  height: calc(100vh - var(--pixel-titlebar-height));
+  margin-top: var(--pixel-titlebar-height);
+  border-top: 0;
+  color: var(--pixel-ink);
+  background: transparent;
+}
+
+body[data-dsh-pixel-kingdom] [data-pane="sidebar"] {
+  position: relative;
+  color: var(--pixel-ink);
+  background: #fff1c7ee;
+  border-right: 4px solid #071a3c;
+  box-shadow: inset -3px 0 #2e72c4, 5px 0 #ffffff80;
+  backdrop-filter: blur(var(--pixel-backdrop-blur));
+}
+
+body[data-dsh-pixel-kingdom] [data-pane="sidebar"]:has([role="dialog"]) {
+  backdrop-filter: none;
+}
+
+body[data-dsh-pixel-kingdom] [data-pane="sidebar"]::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 82px;
+  background:
+    linear-gradient(#6ee54a 0 9px, #158b32 9px 15px, transparent 15px),
+    repeating-linear-gradient(90deg, #bd682d 0 38px, #713116 38px 42px),
+    repeating-linear-gradient(0deg, #bd682d 0 20px, #713116 20px 24px);
+  border-top: 4px solid #071a3c;
+  box-shadow: inset 0 7px #96f15b;
+  pointer-events: none;
+}
+
+body[data-dsh-pixel-kingdom] [data-pane="sidebar"] > * {
+  position: relative;
+  z-index: 1;
+}
+
+body[data-dsh-pixel-kingdom] [data-pane="conversation"] {
+  background: #eaf8ffc2;
+  backdrop-filter: blur(var(--pixel-backdrop-blur));
+}
+
+body[data-dsh-pixel-kingdom] [data-dsh-ssh-view],
+body[data-dsh-pixel-kingdom] [data-dsh-taskboard-view] {
+  background: var(--dsw-alias-bg-layer-1);
+}
+
+body[data-dsh-pixel-kingdom] [data-pane="details"] {
+  color: var(--pixel-ink);
+  background: #fff9e9ee;
+  border-left: 3px solid #315879;
+  box-shadow: inset 2px 0 #8bbfe3;
+  backdrop-filter: blur(var(--pixel-backdrop-blur));
+}
+
+body[data-dsh-pixel-kingdom] [role="dialog"],
+body[data-dsh-pixel-kingdom] [role="menu"],
+body[data-dsh-pixel-kingdom] [role="listbox"] {
+  color: var(--pixel-ink);
+  background: #fffdf8;
+  border: 2px solid var(--pixel-line);
+  border-radius: 8px;
+  box-shadow: var(--pixel-soft-shadow);
+  backdrop-filter: none;
+}
+
+body[data-dsh-pixel-kingdom][data-ds-dark-theme] [data-pane="sidebar"],
+body[data-dsh-pixel-kingdom][data-ds-dark-theme] [data-pane="details"],
+body[data-dsh-pixel-kingdom][data-ds-dark-theme] [role="dialog"],
+body[data-dsh-pixel-kingdom][data-ds-dark-theme] [role="menu"],
+body[data-dsh-pixel-kingdom][data-ds-dark-theme] [role="listbox"] {
+  color: #eef7ff;
+  background: #102a4bf2;
+}

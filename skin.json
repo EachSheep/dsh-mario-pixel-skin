@@ -1,0 +1,30 @@
+{
+  "id": "pixel-kingdom",
+  "name": "DSH 马里奥像素皮肤",
+  "nameEn": "DSH Mario Pixel Skin",
+  "author": "Pixel Kingdom skin contributors",
+  "tagline": "非官方的马里奥风像素冒险界面",
+  "description": "DeepSeek Harness Web UI 的非官方马里奥风像素冒险皮肤。背景、标题栏与控件层级彼此独立；可点击动作、静态标题、文件、轨迹标签、模型选择器和辅助 Todo 状态使用不同视觉语义。所有 DOM 和样式写入均由插件生命周期撤销。",
+  "tags": [
+    "pixel",
+    "adventure",
+    "mario-inspired",
+    "whale",
+    "sky",
+    "game"
+  ],
+  "accent": "#1374d4",
+  "bodyAttr": "data-dsh-pixel-kingdom",
+  "package": "dsh-client-ui-skin-pixel-kingdom",
+  "compatibility": {
+    "tested": [
+      "0.1.0-rc.6"
+    ],
+    "fallback": "tokens-only"
+  },
+  "wiring": {
+    "id": "ui-skin-pixel-kingdom",
+    "bundleWired": true
+  },
+  "order": 90
+}

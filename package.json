@@ -1,0 +1,57 @@
+{
+  "name": "dsh-client-ui-skin-pixel-kingdom",
+  "version": "0.3.1",
+  "description": "An unofficial Mario-inspired pixel-adventure skin for the DeepSeek Harness Web UI.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "skin",
+    "pixel-art",
+    "mario-inspired"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EachSheep/dsh-mario-pixel-skin.git"
+  },
+  "homepage": "https://github.com/EachSheep/dsh-mario-pixel-skin#readme",
+  "bugs": {
+    "url": "https://github.com/EachSheep/dsh-mario-pixel-skin/issues"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "skin.json",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test",
+    "prepack": "npm test"
+  }
+}
