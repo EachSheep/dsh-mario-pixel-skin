@@ -10,6 +10,16 @@
 - 设置弹窗使用实色背景，遮住底层内容和拖拽分隔线
 - 支持字体缩放、背景模糊和亮暗主题
 
+## 预览
+
+### 主界面
+
+![DSH Mario Pixel Skin 主界面](docs/images/main-view.png)
+
+### 设置页
+
+![DSH Mario Pixel Skin 设置页](docs/images/settings-view.png)
+
 ## 兼容
 
 | 项目 | 当前值 |
